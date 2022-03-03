@@ -2,7 +2,7 @@ import { Dispatch, SetStateAction, useEffect, useState } from 'react';
 
 type TReturnValue<T> = [T, Dispatch<SetStateAction<T>>];
 
-export function usePersistedState<T = any>(
+export function usePersistentState<T = any>(
   key: string,
   initialState: T
 ): TReturnValue<T> {
