@@ -23,5 +23,5 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Build React Project
+      - name: Test coding style
         run: CI=false yarn prettier:check
